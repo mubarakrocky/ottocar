@@ -11,6 +11,7 @@ The Ottocar app consist of a backend written in Python using Flask and a UI app 
 * Then run following
 
 
+
     $ python -m virtualenv venv
     $ source venv/bin/activate
     $ pip install -r requirement.txt
