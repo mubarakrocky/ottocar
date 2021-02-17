@@ -1,0 +1,21 @@
+{
+    "dev": {
+        "app_function": "api.__init__.app",
+        "profile_name": "default",
+        "project_name": "ottocar",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-ottocar",
+        "aws_region": "us-east-1",
+        "timeout_seconds": 120,
+        "exclude": ["venv", "ui", "boto3*", "botocore*"],
+        "environment_variables": {
+            "API_ENDPOINT": "",
+            "X_COMPANY_TOKEN": "",
+            "X_USER_COMPANY": "",
+            "X_USER_TOKEN": "",
+            "X_USER_EMAIL": "",
+            "FLASK_APP": "",
+            "LATE_FEES_PRODUCT_ID": ""
+        }
+    }
+}
