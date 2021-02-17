@@ -10,13 +10,12 @@ The Ottocar app consist of a backend written in Python using Flask and a UI app 
 * Edit application.env and replace the values
 * Then run following
 
-
-
+````
     $ python -m virtualenv venv
     $ source venv/bin/activate
     $ pip install -r requirement.txt
     $ env $(cat application.env | xargs) flask run
-
+````
 
 ### Deployment
 
