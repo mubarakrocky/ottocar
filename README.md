@@ -19,7 +19,7 @@ The Ottocar app consist of a backend written in Python using Flask and a UI app 
 
 ### Deployment
 
-**Edit the zappa_settings.json and provide necessary API key credentials**
+Edit the **zappa_settings.json** and provide necessary API key credentials
 
 You can deploy your backend application to AWS lambda by executing:
 
