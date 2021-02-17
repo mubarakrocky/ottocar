@@ -8,7 +8,7 @@ This project is a react UI app to extend weekly contracts
 * npm
 
 ### Configuration
-* Open src/config.json, replace SERVER_URL with the backend server address
+* Open **src/config.json**, replace SERVER_URL with the backend server address
 * Then run `npm install` to install packages
 
 In the project directory, you can run to start dev server:
