@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>AutoCar Subscriptions</h1>
+        <h1>OttoCar Subscriptions</h1>
       </header>
         <Container maxWidth="lg">
             <MainRouter></MainRouter>
