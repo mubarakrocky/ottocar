@@ -1,5 +1,6 @@
 The Ottocar app consist of a backend written in Python using Flask and a UI app written in JS using React.
 
+UI Readme is under ui/ directory.
 ### Development
 ##### Requirements
 * Python 3.7
