@@ -82,16 +82,15 @@ export default function HolidayEligibleInfo(props) {
                         </Grid>
                         <Grid className="AttributeList">
                             <div className="Label">Holiday Periods Taken In The Last 12 Months</div>
-                            {/*<div className="LabelValue">{billingSchedule.details.last_12_months_irregularity}</div>*/}
-                            <div className="LabelValue">Not Implemented</div>
+                            <div className="LabelValue">{billingSchedule.details.last_12_months_irregularity}</div>
                         </Grid>
-                        <Grid className="AttributeList">
-                            <div className="Label">Last Holiday Week Taken</div>
-                            <div className="LabelValue">
-                                Not Implemented
-                                {/*{billingSchedule.details.last_irregular_date ? billingSchedule.details.last_irregular_date : 'N/A'}*/}
-                            </div>
-                        </Grid>
+                        {/*<Grid className="AttributeList">*/}
+                        {/*    <div className="Label">Last Holiday Week Taken</div>*/}
+                        {/*    <div className="LabelValue">*/}
+                        {/*        Not Implemented*/}
+                        {/*        /!*{billingSchedule.details.last_irregular_date ? billingSchedule.details.last_irregular_date : 'N/A'}*!/*/}
+                        {/*    </div>*/}
+                        {/*</Grid>*/}
                         <Grid className="AttributeList InputArea">
                             <div className="Label">Number Of Periods For Custom Billing</div>
                             <div className="LabelValue">
