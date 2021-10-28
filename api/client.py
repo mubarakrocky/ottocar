@@ -31,12 +31,15 @@ def endpoint(path):
 
 
 def headers():
-    return {
-        'X-Company-Token': os.environ.get('X_COMPANY_TOKEN', ''),
+    header = {
         'X-User-Company': os.environ.get('X_USER_COMPANY', ''),
+        'X-Api-Key': os.environ.get('X_API_KEY', ''),
         'X-User-Token': os.environ.get('X_USER_TOKEN', ''),
         'X-User-Email': os.environ.get('X_USER_EMAIL', '')
     }
+    if os.environ.get('X_COMPANY_TOKEN', None):
+        header['X-Company-Token'] = os.environ.get('X_COMPANY_TOKEN')
+    return header
 
 
 def error_response():
